@@ -1,0 +1,93 @@
+/* Definindo estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #ffcc00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando o título principal */
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Seção de introdução */
+.introducao {
+    text-align: center;
+    margin: 20px;
+}
+
+.introducao img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.introducao small {
+    display: block;
+    margin-top: 5px;
+    color: #777;
+}
+
+/* Estilo para as seções */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando os títulos das seções */
+h2 {
+    color: #ff6600;
+    font-size: 1.8rem;
+}
+
+/* Estilo das listas */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Estilo das listas no modo-preparo */
+ol li {
+    margin-bottom: 15px;
+}
+
+/* Estilizando as dicas extras */
+.dicas ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.dicas li {
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
